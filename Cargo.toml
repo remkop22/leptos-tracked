@@ -1,0 +1,19 @@
+[package]
+name = "leptos-tracked"
+version = "0.1.0"
+edition = "2021"
+authors = ["Remo Pas <remo.pas22@gmail.com>"]
+description = "Utility traits for interacting with leptos signals"
+documentation = "https://docs.rs/leptos-tracked"
+readme = "README.md"
+repository = "https://github.com/remkop22/leptos-tracked"
+homepage = "https://github.com/remkop22/leptos-tracked"
+license-file = "LICENSE"
+keywords = ["leptos", "utility", "traits", "signals", "reactivity"]
+categories = ["web-programming", "rendering", "rust-patterns"]
+
+[lib]
+doctest = false
+
+[dependencies]
+leptos_reactive = "0.2.1"
