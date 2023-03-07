@@ -1,6 +1,6 @@
 [package]
 name = "leptos-tracked"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["Remo Pas <remo.pas22@gmail.com>"]
 description = "Utility traits for interacting with leptos signals"
