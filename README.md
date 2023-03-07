@@ -24,7 +24,7 @@ assert!(read_i32.get(), 40);
 
 use leptos_tracked::Toggle;
 
-write_bool.toggle()
+write_bool.tracked_toggle()
 assert!(read_bool.get(), true);
 
 use leptos_tracked::{Add, Extend};
