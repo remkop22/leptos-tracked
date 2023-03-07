@@ -31,7 +31,7 @@ use leptos_tracked::{Add, Extend};
 
 write_str.tracked_add(" ");
 write_str.tracked_extend(vec!["World", "!"])
-assert!(read_bool.get(), "Hello World!");
+assert!(read_str.get(), "Hello World!");
 
 use leptos_tracked::{TrackedVec};
 
